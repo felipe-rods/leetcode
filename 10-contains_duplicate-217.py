@@ -8,7 +8,6 @@ class Solution:
         return False
 
 
-
 solution = Solution()
 print(solution.containsDuplicate([1, 2, 3, 4]))
 print(solution.containsDuplicate([1, 1, 2]))
