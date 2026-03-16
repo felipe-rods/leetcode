@@ -9,4 +9,4 @@ class Solution:
 
 
 solution = Solution()
-print(solution.numberOfMatches(7))
+print(solution.numberOfMatches(385))
