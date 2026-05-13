@@ -2,8 +2,8 @@ class Solution:
     def isHappy(self, n: int) -> bool:
         numbers = []
         digit = 0
-        total = 0
         while n != 1:
+            total = 0
             while n > 0:
                 digit = n % 10
                 total += digit ** 2
@@ -12,7 +12,6 @@ class Solution:
                 return False
             numbers.append(total)
             n = total
-            total = 0
         return True
 
 
