@@ -11,7 +11,7 @@ class Solution:
 				reverse_number = reverse_number * 10 + digit
 				temp //= 10
 
-			return True if reverse_number == number else False
+			return reverse_number == number
 
 
 solution = Solution()
