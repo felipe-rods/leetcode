@@ -12,7 +12,7 @@ class Solution(object):
         integer = 0
         previous_number = 0
 
-        for letter in reversed(s):
+        for letter in s[::-1]:
             if roman_numerals[letter] >= previous_number:
                 integer += roman_numerals[letter]
                 previous_number = roman_numerals[letter]
