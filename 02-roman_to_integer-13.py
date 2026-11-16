@@ -9,6 +9,7 @@ class Solution(object):
             'D': 500,
             'M': 1000
         }
+        s = s.upper()
         integer = 0
         previous_number = 0
 
@@ -22,7 +23,7 @@ class Solution(object):
 
 solution = Solution()
 print(solution.romanToInt('MCDIX'))
-print(solution.romanToInt('MCMDDDIXV'))
+print(solution.romanToInt('MCmDDDIXV'))
 print(solution.romanToInt('XIV'))
 print(solution.romanToInt('MMMCCCXXXIII'))
 print(solution.romanToInt('CM'))
